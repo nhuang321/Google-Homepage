@@ -1,0 +1,121 @@
+
+/* Navigation bar and footer*/
+body{
+    font-family: arial;
+    font-size: 13px;
+    font-color: rgba(0,0,0,0.87);
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    display: inline;
+    padding-left: 10px;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover, a:active{
+    text-decoration:underline;
+}
+
+/* Navigation bar */
+
+.navbar{
+    text-align: right;
+    padding-right: 16px;
+    padding-top: 10px;
+}
+
+.apps-icon{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+}
+
+.blue-button{
+    border: 1px solid black;
+    border: none;
+    background-color:rgb(70, 131, 234);
+    width: 80px;
+    height: 30px;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* Image logo and text form */
+.container{
+    text-align: center;
+    padding-top: 120px;
+    margin: 0px auto;
+}
+
+.logo, .search, .buttons{
+    margin: 20px 0 20px 0;
+}
+
+.searchbox{
+    border: 1px solid whitesmoke;
+    box-shadow: 1px 1px 5px grey;
+}
+
+.logoimg{
+    width: 270px;
+    padding-bottom: 10px;
+}
+
+.gray-button{
+    border: 1px solid black;
+    border: none;
+    width: 126px;
+    height: 36px;
+    background-color: rgb(242, 242, 242);
+    font-size: 13px;
+    font-weight: 700;
+    color: gray;
+    margin-left: 7px;
+    margin-right: 7px;
+}
+
+input{
+    display: inline-block;
+    height: 40px;
+    width: 600px;
+    font-size: 22px;
+}
+
+/* Footer */
+
+footer{
+    width: 100%;
+    background-color: rgb(242, 242, 242);
+    position: absolute;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+    height: 40px;
+}
+
+#right, #left{
+    vertical-align: middle;
+}
+
+#right{
+    float: right;
+    padding-right: 10px;
+}
+
+#left{
+    float: left;
+    padding-left: 10px;
+}

@@ -1,0 +1,1 @@
+Recreating Google's Homepage (in design only), part of project Odin Curriculum to learn HTML and CSS
